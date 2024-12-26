@@ -8,8 +8,8 @@
     <style>
       *{
         color: #213a7a;
-
       }
+
     </style>
   </head>
   <body>
@@ -32,19 +32,21 @@
     <!-- Header -->
     <header
       class="w3-display-container w3-content w3-wide"
-      style="max-width: 1500px"
+      style="max-width: 1780px"
       id="home"
     >
+    <div style="overflow: hidden; width: 100%; height: 955px; position: relative;">
       <img
         class="w3-image"
-        src="./assets/3.jpeg"
+        src="./assets/image.jpg"
         alt="cover"
-        width="1500"
-        height="800"
+        style="filter: blur(2px); width: 1780px; height: auto; position: absolute; top: 0; left: 0;"
       />
+    </div>
+    
       <div class="w3-display-middle w3-margin-top w3-center">
         <h1 class="w3-xxlarge w3-text-white">
-          <img class="w3-padding w3-white " src="./assets/name_.png" alt="" height="auto" width="500">
+          <img class="w3-padding w3-white " src="./assets/name_.png" alt="" height="auto" width="650px">
           <span class="w3-hide-small w3-text-light-grey"></span>
            <!-- <img class="logo-mni" src="./assets/logo.png" alt="" height="400px" width="auto" border> -->
         </h1>
@@ -52,7 +54,7 @@
     </header>
 
     <!-- Page content -->
-    <div class="w3-content w3-padding" style="max-width: 1564px">
+    <div class="w3-content w3-padding" style="max-width: 1780px">
       <!-- Project Section -->
       <div class="w3-container w3-padding-32" id="projects">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="font-weight: 700; text-align: center;">
@@ -111,14 +113,14 @@
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 " style="text-align: center; font-weight: 700;">
           About
         </h3>
-        <p>
+        <p style="line-height: 1.6; text-align: justify;">
           MechNest Industries has developed broad based facilities for undertaking precision manufacturing of engineering parts. We have set up facilities comprising two Vertical CNC Milling Centre Machines with a table size of 800 x 450 mm and 1000 x 500 mm besides having heavy duty lathe with 12" centre & a 35A capacity EDM machine. 
           </p>
-          <p>
+          <p style="line-height: 1.6; text-align: justify;">
             
             We are specialized in making very complex Aluminum Extrusion Dies for solar panel aluminium sections which and have been appreciated for meeting the desired level of accuracy and output. We are the sole Indian vendor of these Extrusion Dies to the largest solar aluminium section manufacturer in India which is in turn supplies high quality sections to solar panel manufacturing companies across the country.  
           </p>
-          <p>  
+          <p  style="line-height: 1.6; text-align: justify;">  
             We have also designed and developed Cutting Dies which are used in high speed PCB manufacturing process.  
 
         </p>
@@ -153,48 +155,45 @@
           </div>
           
       <!-- Contact Section -->
-      <div class="w3-container w3-padding-32" id="contact">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
-          Contact
-        </h3>
-        <p>Lets get in touch and talk about your next project.</p>
-        <form action="/action_page.php" target="_blank">
-          <input
-            class="w3-input w3-border"
-            type="text"
-            placeholder="Name"
-            required=""
-            name="Name"
-          />
-          <input
-            class="w3-input w3-section w3-border"
-            type="text"
-            placeholder="Email"
-            required=""
-            name="Email"
-          />
-          <input
-            class="w3-input w3-section w3-border"
-            type="text"
-            placeholder="Subject"
-            required=""
-            name="Subject"
-          />
-          <input
-            class="w3-input w3-section w3-border"
-            type="text"
-            placeholder="Comment"
-            required=""
-            name="Comment"
-          />
-          <button class="w3-button w3-black w3-section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </form>
+      <div id="contact" style="display: grid; grid-template-columns: 1fr 1fr; min-height: 75vh; color: #213a7a; font-family: Verdana, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;">
+        <div style="padding: 1rem; background-color: white; margin: auto;">
+            <h1 style="font-size: 2.5rem; font-weight: 900; margin-bottom: 2rem; ">Contact details</h1>
+            
+            <div style="margin-bottom: 1rem; display: flex; align-items: baseline;">
+                <span style="font-weight: bold;  margin-right: 0.5rem;">Phone:</span>
+                <span style="color: #666;" >+91 89803 82055</span>
+            </div>
+            
+            <div style="margin-bottom: 1rem; display: flex; align-items: baseline;">
+                <span style="font-weight: bold;  margin-right: 0.5rem;">Email:</span>
+                <span style="color: #666;">mechnestindustries@gmail.com</span>
+            </div>
+            
+            <div style="margin-bottom: 1rem; display: flex; align-items: baseline;">
+                <span style="font-weight: bold;  margin-right: 0.5rem;">Address:</span>
+                <span style="color: #666;">109, Pushkar Industrial Estate 2, Narol-Vatva Road, Phase-1 GIDC Vatva, Ahmedabad, Gujarat, India, 382445</span>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <h2 style="font-size: 1rem; font-weight: bold; margin-bottom: 1rem; ">OPENING HOURS</h2>
+                <p style="color: #666; margin-bottom: 0.5rem;">Monday - Saturday: 8:00 AM – 8:00 PM</p>
+                <p style="color: #666; margin-bottom: 0.5rem;">Sunday: Closed</p>
+            </div>
+        </div>
         
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.599471233704!2d72.63641787502655!3d22.964973418475797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e89220536e31d%3A0x249da2915972bc77!2sMechNest%20Industries!5e0!3m2!1sen!2sin!4v1729102399551!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
-      </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.599471233704!2d72.63641787502655!3d22.964973418475797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e89220536e31d%3A0x249da2915972bc77!2sMechNest%20Industries!5e0!3m2!1sen!2sin!4v1729102399551!5m2!1sen!2sin"
+                style="width: 100%; height: 50vh; border: none;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+    
 
       <!-- Image of location/map -->
 

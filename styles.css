@@ -143,10 +143,8 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 .logo-mni {
-    -webkit-filter: drop-shadow(1px 1px 0 black)
-    drop-shadow(-1px -1px 0 black);
-filter: drop-shadow(1px 1px 0 black) 
-drop-shadow(-1px -1px 0 black);
+  -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
 }
 fieldset {
   border: 1px solid #c0c0c0;
